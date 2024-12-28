@@ -1,7 +1,8 @@
 package com.calculator.domain;
 
 public class Calculator {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+
+    public int addCal(int x, int y){
+        return x+y;
     }
 }
